@@ -133,12 +133,12 @@ function createMap(earthquakes) {
       let levels = [0, 1, 2, 3, 4, 5];
       
       let colors = [
-        "#98ee00",
-        "#d4ee00",
-        "#eecc00",
-        "#ee9c00",
-        "#ea822c",
-        "#ea2c2c"
+        "#98EE00",
+        "#D4EE00",
+        "#EECC00",
+        "#EE9C00",
+        "#EA822C",
+        "#EA2C2C"
       ];
   
       for (var i = 0; i < levels.length; i++) {
