@@ -121,7 +121,7 @@ function createMap(earthquakes) {
     }).addTo(faultLine)
   })
 
-    //Legend 
+  //Legend 
   let legend = L.control({
     position: "bottomright"
   });
