@@ -1,5 +1,6 @@
-# leaflet-challenge
-Bootcamp Data Analytics Homework Leaflet.
+## leaflet-challenge
+# Bootcamp Data Analytics Homework Leaflet.
+# Note: Theres necessary introduce a API_KEY in the config.js file to use mapbox maps.
 
 A tedious but very interesting challenge, putting it into practice with a real topic and current information is more learning.
 
