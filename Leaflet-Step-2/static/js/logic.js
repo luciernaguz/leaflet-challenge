@@ -4,7 +4,7 @@ var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_we
 // d3 json
 d3.json(queryUrl, function(data) {
   createFeatures(data.features);
-  console.log(data.features)
+  //console.log(data.features)
 });
 
 // features
@@ -112,7 +112,7 @@ function createMap(earthquakes) {
   // faultline data
   var faultlinequery = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json";
   
-  // faultlines and add them to the faultline layer
+  // faultlines 
   d3.json(faultlinequery, function(data) {
     L.geoJSON(data, {
       style: function() {
